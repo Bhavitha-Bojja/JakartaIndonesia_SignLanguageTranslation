@@ -1,0 +1,6 @@
+fastapi[standard]
+pydantic
+opencv-python
+numpy
+tensorflow
+mediapipe
