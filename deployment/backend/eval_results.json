@@ -1,0 +1,79 @@
+{
+    "accuracy": "80%",
+    "correct": 48,
+    "total": 60,
+    "misclassified": [
+        {
+            "path": "test_videos/anak/anak_03.mp4",
+            "actual": "anak",
+            "predicted": "keluarga",
+            "confidence": 0.28
+        },
+        {
+            "path": "test_videos/buruk/buruk_07.mp4",
+            "actual": "buruk",
+            "predicted": "anak",
+            "confidence": 0.37
+        },
+        {
+            "path": "test_videos/dengar/dengar_04.mp4",
+            "actual": "dengar",
+            "predicted": "maaf",
+            "confidence": 0.31
+        },
+        {
+            "path": "test_videos/gembira/gembira_10.mp4",
+            "actual": "gembira",
+            "predicted": "buka",
+            "confidence": 0.71
+        },
+        {
+            "path": "test_videos/ibu/ibu_03.mp4",
+            "actual": "ibu",
+            "predicted": "maaf",
+            "confidence": 0.19
+        },
+        {
+            "path": "test_videos/kertas/kertas_01.mp4",
+            "actual": "kertas",
+            "predicted": "main",
+            "confidence": 0.26
+        },
+        {
+            "path": "test_videos/lihat/lihat_04.mp4",
+            "actual": "lihat",
+            "predicted": "makan",
+            "confidence": 0.79
+        },
+        {
+            "path": "test_videos/lihat/lihat_07.mp4",
+            "actual": "lihat",
+            "predicted": "senyum",
+            "confidence": 0.62
+        },
+        {
+            "path": "test_videos/makan/makan_04.mp4",
+            "actual": "makan",
+            "predicted": "minum",
+            "confidence": 0.84
+        },
+        {
+            "path": "test_videos/orang/orang_04.mp4",
+            "actual": "orang",
+            "predicted": "ibu",
+            "confidence": 0.33
+        },
+        {
+            "path": "test_videos/rumah/rumah_06.mp4",
+            "actual": "rumah",
+            "predicted": "teman",
+            "confidence": 0.26
+        },
+        {
+            "path": "test_videos/sedikit/sedikit_01.mp4",
+            "actual": "sedikit",
+            "predicted": "orang",
+            "confidence": 0.33
+        }
+    ]
+}
