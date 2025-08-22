@@ -16,11 +16,11 @@ It was originally developed as part of an Omdena collaboration and is mirrored h
 ---
 
 ## 📂 Repository Structure
-├── deployment/ # Scripts for model inference and deployment
-├── modeling/ # Training notebooks, experiments, and model architectures
-├── preprocessing/ # Data cleaning, augmentation, and keypoint extraction pipelines
-├── .gitignore
-└── README.md
+deployment/ # Scripts for model inference and deployment
+modeling/ # Training notebooks, experiments, and model architectures
+preprocessing/ # Data cleaning, augmentation, and keypoint extraction pipelines
+.gitignore
+README.md
 
 
 ---
