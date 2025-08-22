@@ -1,7 +1,78 @@
-# Omdena Jakarta: Sign Language Recognition and Production System for Indonesia
+# Jakarta Indonesia — Sign Language Translation
 
-## Contribution Guidelines
-**Note: DO NOT COMMIT TO THE MAIN BRANCH**
-1. Create a subranch with your name (ex: `louis`) based from the `main` branch 
-2. Commit your work (python, notebook files) to the respective folders
-3. You may group different model experiments into subfolders under `modeling/`
+This project focuses on building a system to **translate Indonesian Sign Language (BISINDO)** into text using deep learning and computer vision techniques.  
+It was originally developed as part of an Omdena collaboration and is mirrored here for visibility and continued learning.
+
+---
+
+## 🚀 Project Overview
+- **Goal**: Enable real-time or near real-time translation of BISINDO (Jakarta dialect) sign language into written text.
+- **Why**: To improve accessibility and communication for the Deaf and Hard-of-Hearing community.
+- **Approach**: 
+  - Preprocessing of sign videos and keypoint extraction.  
+  - Modeling using state-of-the-art deep learning architectures (e.g., Landmark Transformers, CNNs, LSTMs).  
+  - Deployment scripts for testing inference on new video samples.  
+
+---
+
+## 📂 Repository Structure
+├── deployment/ # Scripts for model inference and deployment
+├── modeling/ # Training notebooks, experiments, and model architectures
+├── preprocessing/ # Data cleaning, augmentation, and keypoint extraction pipelines
+├── .gitignore
+└── README.md
+
+
+---
+
+## 🛠️ Tech Stack
+- **Languages**: Python  
+- **Libraries**: OpenCV, TensorFlow / PyTorch, scikit-learn, NumPy, Pandas  
+- **ML Tools**: DVC, MLflow (for dataset and experiment tracking)  
+- **Deployment**: Streamlit / Flask (prototype stage)
+
+---
+
+## ⚡ Quick Start
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/JakartaIndonesia_SignLanguageTranslation.git
+cd JakartaIndonesia_SignLanguageTranslation
+
+# Create environment
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+Run Preprocessing
+python preprocessing/preprocess.py --config configs/preprocess.yaml
+
+
+Train a Model
+python modeling/train.py --config configs/train.yaml
+
+
+Inference
+python deployment/inference.py --weights models/best.pt --input sample_video.mp4 --out output.mp4
+
+📊 Results (sample)
+
+Gesture classification accuracy: 81.67% validation accuracy
+
+Translation demo: https://lnkd.in/gU3GAjVc
+
+📁 Data & Models
+
+Large datasets and trained models were originally hosted on DagsHub using DVC.
+
+Due to size limits, only sample data and scripts are provided here.
+
+To fetch full datasets/models, please refer to the original DagsHub project.
+
+🤝 Attribution
+
+This repository is a mirror of the collaborative project developed through Omdena and hosted on [DagsHub](https://lnkd.in/gkrERw-h)
+.
