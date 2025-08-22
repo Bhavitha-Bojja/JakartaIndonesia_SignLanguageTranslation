@@ -33,31 +33,6 @@ It was originally developed as part of an Omdena collaboration and is mirrored h
 
 ---
 
-## ⚡ Quick Start
-```bash
-# Clone the repo
-git clone https://github.com/<your-username>/JakartaIndonesia_SignLanguageTranslation.git
-cd JakartaIndonesia_SignLanguageTranslation
-
-# Create environment
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-
-Run Preprocessing
-python preprocessing/preprocess.py --config configs/preprocess.yaml
-
-
-Train a Model
-python modeling/train.py --config configs/train.yaml
-
-
-Inference
-python deployment/inference.py --weights models/best.pt --input sample_video.mp4 --out output.mp4
-
 📊 Results (sample)
 
 Gesture classification accuracy: 81.67% validation accuracy
@@ -74,5 +49,4 @@ To fetch full datasets/models, please refer to the original DagsHub project.
 
 🤝 Attribution
 
-This repository is a mirror of the collaborative project developed through Omdena and hosted on [DagsHub](https://lnkd.in/gkrERw-h)
-.
+This repository is a mirror of the collaborative project developed through Omdena and hosted on [DagsHub](https://lnkd.in/gkrERw-h).
