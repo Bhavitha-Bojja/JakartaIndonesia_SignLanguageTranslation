@@ -33,7 +33,7 @@ It was originally developed as part of an Omdena collaboration and is mirrored h
 
 ---
 
-📊 Results (sample)
+📊 Results
 
 Gesture classification accuracy: 81.67% validation accuracy
 
@@ -45,7 +45,7 @@ Large datasets and trained models were originally hosted on DagsHub using DVC.
 
 Due to size limits, only sample data and scripts are provided here.
 
-To fetch full datasets/models, please refer to the original DagsHub project.
+To fetch full datasets/models, please refer to the original [DagsHub project](https://lnkd.in/gkrERw-h).
 
 🤝 Attribution
 
